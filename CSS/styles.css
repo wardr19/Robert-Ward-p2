@@ -1,0 +1,73 @@
+body{
+    font-family:"Nerko One",sans-serif; 
+    margin: 1rem;
+    background: #fcfcfc;
+}
+
+header{
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+#tracker{
+    background: #fff;
+    border: 3px solid #ddd;
+    box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 1.5rem;
+}
+
+#add-habit-form{
+    display: flex;
+    gap: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+#add-habit-form input{
+    flex: 1;
+}
+
+#habit-list{
+    list-style: none;
+    padding: 0;
+    margin: 1rem auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#habit-list li{
+    background: #fafafa;
+    border: 1px solid #ccc;
+    padding: 0.5rem 1rem;
+    width: 100%;
+    max-width: 400px;
+    display: flex;
+    align-items: center;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 0.5rem;
+    border-radius: 4px;
+}
+
+#habit-list li.done span{
+    text-decoration: line-through;
+    color: #888;
+}
+
+#progress{
+    margin-top: 1rem;
+    font-weight: bold;
+}
+
+#reset-all{
+    margin-top: 0.5rem;
+}
+
+
+.nerko-one-regular {
+    font-family: "Nerko One", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
